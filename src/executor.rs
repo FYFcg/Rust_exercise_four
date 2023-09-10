@@ -1,9 +1,8 @@
 use crate::waker::Signal;
-use futures::future::BoxFuture;
+use futures::{future::BoxFuture, Future};
 use std::{
     cell::RefCell,
     collections::VecDeque,
-    future::Future,
     sync::mpsc,
     sync::{Arc, Mutex},
     task::{Context, Poll, Wake, Waker},
