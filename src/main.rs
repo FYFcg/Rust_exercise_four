@@ -1,8 +1,7 @@
 use futures::future::BoxFuture;
-use futures::FutureExt;
+use futures::{FutureExt, Feture};
 use std::cell::RefCell;
 use std::collections::VecDeque;
-use std::future::Future;
 use std::sync::{Arc, Condvar, Mutex};
 use std::task::{Context, Poll, RawWaker, RawWakerVTable, Wake, Waker};
 use std::pin::Pin;
