@@ -70,5 +70,6 @@ pub fn create_waker(signal: &Signal) -> Waker {
         Arc::into_raw(arc) as *const (),
         &VTABLE,
     );
+    
     unsafe { Waker::from_raw(raw_waker) }
 }
