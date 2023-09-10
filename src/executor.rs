@@ -1,5 +1,4 @@
 use crate::waker::Signal;
-use futures::{future::BoxFuture, Future};
 use std::{
     cell::RefCell,
     collections::VecDeque,
@@ -8,6 +7,7 @@ use std::{
     task::{Context, Poll, Wake, Waker},
     thread::JoinHandle,
 };
+use futures::{future::BoxFuture, Future};
 
 scoped_tls::scoped_thread_local!(pub(crate) static EX: Executor);
 
