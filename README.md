@@ -1,15 +1,6 @@
 # Rust_exercise_four
 # README 
 
-## 如何在本地测试？
-
-命令行输入：
-```
-$ git clone https://github.com/Moratoryvan/Rust-hw.git
-$ cd Rust-hw/hw4
-$ cargo test 
-```
-
 ## 文件路径
 
 ```
@@ -23,6 +14,13 @@ hw4
 └─ README.md
 ```
 
-## 测试结果 
+## 如何在本地测试？
 
-![image.png](https://s2.loli.net/2023/09/09/EfgH5IuyqGoYVJv.png)
+命令行输入：
+```
+$ git clone https://github.com/FYFcg/Rust_exercise_four.git
+$ cargo run
+```
+
+## 测试结果
+![image](https://github.com/FYFcg/Rust_exercise_four/assets/101627435/d6f98416-684d-4d72-9ad9-0c8093ebf128)
