@@ -3,14 +3,13 @@
 ## 文件路径
 
 ```
-hw4
+runtime
 ├─ src
 │  ├─ executor.rs           
-│  ├─ main.rs               // 测试
+│  ├─ main.rs
 │  ├─ waker.rs               
 ├─ Cargo.lock
-├─ Cargo.toml
-└─ README.md
+└─ Cargo.toml
 ```
 
 ## 如何在本地测试？
